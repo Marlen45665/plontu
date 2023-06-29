@@ -1,0 +1,49 @@
+.header{
+    font-family: "inter";
+    background: #F7F7F7;
+    width: 100%;
+}
+.header-wrapper{
+    box-sizing: border-box;
+    padding: 13px;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-avatar{
+    width: 74px;
+    height: 74px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 4px;
+}
+.header-name{
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+.header-check{
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border-radius: 3px;
+}
+.hashtag-wrapper{
+    box-sizing: border-box;
+    padding: 9px 13px;
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+}
+.header-hashtag{
+    font-family: "inter";
+    line-height: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7A7A7A;
+}

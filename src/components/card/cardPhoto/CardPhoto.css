@@ -1,0 +1,64 @@
+.CardPhoto{
+    position: relative;
+    background: #F7F7F7;
+    border: 0.5px solid rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    height: 153px;
+    width: 353px;
+    overflow: hidden;
+    transition: 0.5s
+}
+.CardPhoto:hover{
+    background: #e0dfdf;
+    box-shadow: 0px 4px 21px -3px rgba(0, 0, 0, 0.11);
+}
+.CardPhoto-bottom{
+    font-family: "inter";
+    font-weight: 600;
+    line-height: 15px;
+    font-size: 12px;
+    height: 40px;
+    width: 100%;
+    background-color: #E9E9E9;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: black;
+}
+
+
+.text-box{
+    color: black;
+    box-sizing:border-box;
+    height: 100%;
+    width: 100%;
+    padding: 17px 30px;
+}
+.text{
+    text-align: justify;
+    /* max-width: 300px; */
+    font-family: "inter";
+    font-size: 12px;
+    height: 100%;
+}
+
+
+.Photo{
+    /* width: 200px; */
+    border-radius: 8px;
+    height: 100%;
+    /* background-image: url("../../a.jpeg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat no-repeat;
+}
+
+.Post{
+    padding: 20px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.839);
+    font-family: "inter";
+    font-size: 12px;
+}

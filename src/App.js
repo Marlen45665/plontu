@@ -3,7 +3,7 @@ import Navigation from "./components/navigation/Navigation";
 import UserPage from "./components/pages/userPage/UserPage";
 import ContentPage from "./components/pages/contentPage/ContentPage";
 import { Routes, Route } from 'react-router-dom';
-import "./app.css"
+import "./App.css"
 
 function App() {
 

@@ -1,7 +1,6 @@
 .card-content{
     box-sizing: border-box;
     padding: 13px;
-    width: 200px;
     background: #F7F7F7;
     border: 0.5px solid rgba(0, 0, 0, 0.05);
     border-radius: 8px;
@@ -56,24 +55,3 @@
 }
 
 
-
-/* .card-photo{
-    display: none;
-} */
-
-
-/* .card-photo.animate {
-    display: block;
-    animation: fadeIn 0.8s ease-in-out;
-  }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-      transform: translateX(-50px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  } */

@@ -6,16 +6,17 @@ import { Routes, Route } from 'react-router-dom';
 import "./App.css"
 
 function App() {
-
   return (
-    <>
-      <Navigation/>
-      <Routes>
-        <Route path="/" element={<MainPage/>}/>
-        <Route path="/user/:id" element={<UserPage/>}/>
-        <Route path="/user/:id/content/:i" element={<ContentPage/>}/>
-      </Routes>
-    </>
+    <div className="app-wrapper">
+      <div className="app-container">
+        <Navigation/>
+        <Routes>
+          <Route path="/" element={<MainPage/>}/>
+          <Route path="/user/:id" element={<UserPage/>}/>
+          <Route path="/user/:id/content/:i" element={<ContentPage/>}/>
+        </Routes>
+      </div>
+    </div>
   );
 }
 

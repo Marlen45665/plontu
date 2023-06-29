@@ -1,17 +1,12 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import db from "../../../db.json"
 import "../contentPage/ContentPage.css";
 
 function ContentPage() {
-  const [state, setState] = useState({});
+  const {user} = db
   const { id, i } = useParams();
-  const URL = `http://localhost:3001/user/${id}`;
-
-  useEffect(() => {
-    fetch(URL)
-      .then((res) => res.json())
-      .then((res) => setState(res.post[i - 1]));
-  }, [URL, i]);
+  const [state, setState] = useState(user[id-1].post[i - 1]);
 
   useEffect(() => {
     let intervalId;
@@ -29,7 +24,6 @@ function ContentPage() {
         }
       }, 20); // Интервал задержки между появлением символов (в миллисекундах)
     }
-
     return () => clearInterval(intervalId);
   }, [state.textPost]);
 

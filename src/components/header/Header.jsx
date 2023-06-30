@@ -4,7 +4,7 @@ import "./Header.css";
 
 function UserPage(props) {
   const headerColor = useHeaderColorEffect(props.avatarImg);
-  
+
   return (
     <>
       <div className="header" style={{ backgroundColor: headerColor }}>

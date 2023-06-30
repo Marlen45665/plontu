@@ -6,7 +6,7 @@ function CardPhoto(props){
     return(
         <div className="CardPhoto" >
             {props.children}
-            <div className="CardPhoto-bottom">{props.name}</div>
+            <div className={`CardPhoto-bottom ${props.class}`}>{props.name}</div>
         </div>
     )
 }
